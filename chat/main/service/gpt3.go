@@ -15,6 +15,7 @@ const ( //全局变量
 	maxTokens   = 2000 //openai api的参数配置
 	temperature = 0.7
 	engine      = "text-davinci-003"
+	apiKey      = "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"
 )
 
 // ChatGPTResponseBody 响应体 接受chatGpt的响应数据
@@ -70,7 +71,7 @@ func Completions(msg string) (string, error) {
 
 	//获取配置文件中的openai_key
 	//apiKey := viper.GetString("OPENAI_KEY")
-	apiKey := "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"
+	apiKey := apiKey
 	//配置请求头
 	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("Authorization", "Bearer "+apiKey)
