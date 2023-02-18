@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2404107-cf16-4a1c-849b-6058e5fabdde" name="Changes" comment="chat by go">
-      <change afterPath="$PROJECT_DIR$/chat/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/main/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/main/service/gpt3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feishu-chatGpt/code/config.example.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feishu-chatGpt/code/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/feishu-chatGpt/code/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feishu-chatGpt/code/services/gpt3.go" beforeDir="false" afterPath="$PROJECT_DIR$/feishu-chatGpt/code/services/gpt3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Arrays/Arrays.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/maps/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/range/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/slices/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/boolDemo/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/demo1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/demo1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/demo2/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/exce/main1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/intDemo/intDemo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stringDemo/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/structDemo/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/test1.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -30,96 +40,101 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Jg17rEHKYNP5hlYqXvhsmUAmp5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yangxinyu/Desktop/go&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.VCS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go Application",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "configurable..is.expanded": "false",
+    "configurable.GoLibrariesConfigurable.is.expanded": "true",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/yangxinyu/Desktop/go/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main" />
       <recent name="$PROJECT_DIR$/chat/main" />
       <recent name="$PROJECT_DIR$/chat/main/services" />
-      <recent name="$PROJECT_DIR$/main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/for" />
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build MYTESTPROC_GO/chat/main">
-    <configuration name="go build MYTESTPROC_GO/chat/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build MYTESTPROC_GO/main/range">
+    <configuration name="go build MYTESTPROC_GO/main/Arrays" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/chat/main" />
+      <package value="MYTESTPROC_GO/main/Arrays" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chat/main/main.go" />
+      <filePath value="$PROJECT_DIR$/main/Arrays/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/boolDemo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build MYTESTPROC_GO/main/maps" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/boolDemo" />
+      <package value="MYTESTPROC_GO/main/maps" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/boolDemo/main.go" />
+      <filePath value="$PROJECT_DIR$/main/maps/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/intDemo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build MYTESTPROC_GO/main/range" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/intDemo" />
+      <package value="MYTESTPROC_GO/main/range" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/intDemo/intDemo.go" />
+      <filePath value="$PROJECT_DIR$/main/range/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/stringDemo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build MYTESTPROC_GO/main/slices" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/stringDemo" />
+      <package value="MYTESTPROC_GO/main/slices" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/stringDemo/main.go" />
+      <filePath value="$PROJECT_DIR$/main/slices/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build start-feishubot" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build MYTESTPROC_GO/main/switch" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
-      <working_directory value="$PROJECT_DIR$/feishu-chatGpt/code" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="start-feishubot" />
+      <package value="MYTESTPROC_GO/main/switch" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/feishu-chatGpt/code/main.go" />
+      <filePath value="$PROJECT_DIR$/main/switch/for.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/chat/main" />
-        <item itemvalue="Go Build.go build start-feishubot" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/stringDemo" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/intDemo" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/boolDemo" />
+        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/range" />
+        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/maps" />
+        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/slices" />
+        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/Arrays" />
+        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/switch" />
       </list>
     </recent_temporary>
   </component>
