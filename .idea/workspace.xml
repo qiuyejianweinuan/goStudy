@@ -4,23 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2404107-cf16-4a1c-849b-6058e5fabdde" name="Changes" comment="chat by go">
-      <change afterPath="$PROJECT_DIR$/main/Arrays/Arrays.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/maps/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/range/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/slices/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e2404107-cf16-4a1c-849b-6058e5fabdde" name="Changes" comment="recent study">
+      <change afterPath="$PROJECT_DIR$/main/VariadicFunctions/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/closures/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/embedding/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/functions/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/generics/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/interface/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/methods/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/multipleReturn/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/nimingFunc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/pointer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/recursion/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/stringAndRunes/Arrays.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/struct/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/boolDemo/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/demo1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/demo1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/demo2/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/exce/main1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/intDemo/intDemo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/stringDemo/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/structDemo/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/test1.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,10 @@
     </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,30 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go Application",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "false",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/yangxinyu/Desktop/go/main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yangxinyu/Desktop/go/main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/main" />
@@ -78,63 +80,64 @@
       <recent name="$PROJECT_DIR$/chat/main/services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/recursion" />
       <recent name="$PROJECT_DIR$/main/for" />
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build MYTESTPROC_GO/main/range">
-    <configuration name="go build MYTESTPROC_GO/main/Arrays" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build MYTESTPROC_GO/main/interface">
+    <configuration name="go build MYTESTPROC_GO/main/interface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/Arrays" />
+      <package value="MYTESTPROC_GO/main/interface" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/Arrays/main.go" />
+      <filePath value="$PROJECT_DIR$/main/interface/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/maps" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build MYTESTPROC_GO/main/methods" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/maps" />
+      <package value="MYTESTPROC_GO/main/methods" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/maps/main.go" />
+      <filePath value="$PROJECT_DIR$/main/methods/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/range" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build MYTESTPROC_GO/main/recursion" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/range" />
+      <package value="MYTESTPROC_GO/main/recursion" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/range/main.go" />
+      <filePath value="$PROJECT_DIR$/main/recursion/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/slices" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build MYTESTPROC_GO/main/stringAndRunes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/slices" />
+      <package value="MYTESTPROC_GO/main/stringAndRunes" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/slices/main.go" />
+      <filePath value="$PROJECT_DIR$/main/stringAndRunes/Arrays.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/switch" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build MYTESTPROC_GO/main/struct" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/switch" />
+      <package value="MYTESTPROC_GO/main/struct" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/switch/for.go" />
+      <filePath value="$PROJECT_DIR$/main/struct/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/range" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/maps" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/slices" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/Arrays" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/switch" />
+        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/interface" />
+        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/methods" />
+        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/struct" />
+        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/stringAndRunes" />
+        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/recursion" />
       </list>
     </recent_temporary>
   </component>
