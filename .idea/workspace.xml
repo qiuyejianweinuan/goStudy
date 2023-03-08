@@ -5,20 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2404107-cf16-4a1c-849b-6058e5fabdde" name="Changes" comment="recent study">
-      <change afterPath="$PROJECT_DIR$/main/VariadicFunctions/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/closures/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/embedding/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/functions/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/generics/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/interface/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/methods/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/multipleReturn/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/nimingFunc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/pointer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/recursion/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/stringAndRunes/Arrays.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/struct/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginStudy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginStudy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginStudy/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/error/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/scanf/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainI/channel-buffer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainI/channel-close/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainI/channel-synchronization/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainI/channel/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainI/channelDirection/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainI/channelSelect/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainI/goroutine/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainI/non-blocking-channel-operations/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainI/timeouts/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainI/utils/utils.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/closures/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/closures/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/embedding/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/embedding/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/functions/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/functions/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/generics/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/generics/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/maps/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/maps/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +47,9 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -49,35 +61,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
-    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yangxinyu/Desktop/go/main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go Application",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ask.go.tool.to.install.GoImportsTaskConsumer": "true",
+    "configurable..is.expanded": "true",
+    "configurable.GoLibrariesConfigurable.is.expanded": "true",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/yangxinyu/Desktop/go",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/mainI" />
+      <recent name="$PROJECT_DIR$/main1" />
       <recent name="$PROJECT_DIR$/main" />
       <recent name="$PROJECT_DIR$/chat/main" />
-      <recent name="$PROJECT_DIR$/chat/main/services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/main/recursion" />
@@ -85,59 +100,67 @@
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build MYTESTPROC_GO/main/interface">
-    <configuration name="go build MYTESTPROC_GO/main/interface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build GoTest/ginStudy/main">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/interface" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/interface/main.go" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/methods" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoTest/ginStudy/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/methods" />
+      <package value="GoTest/ginStudy/main" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/methods/main.go" />
+      <filePath value="$PROJECT_DIR$/ginStudy/main/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/recursion" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoTest/mainI/channel" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/recursion" />
+      <package value="GoTest/mainI/channel" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/recursion/main.go" />
+      <filePath value="$PROJECT_DIR$/mainI/channel/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/stringAndRunes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoTest/mainI/channelSelect" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/stringAndRunes" />
+      <package value="GoTest/mainI/channelSelect" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/stringAndRunes/Arrays.go" />
+      <filePath value="$PROJECT_DIR$/mainI/channelSelect/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build MYTESTPROC_GO/main/struct" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoTest/mainI/timeouts" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="MYTESTPROC_GO/main/struct" />
+      <package value="GoTest/mainI/timeouts" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main/struct/main.go" />
+      <filePath value="$PROJECT_DIR$/mainI/timeouts/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GoTest/main/maps" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoTest/main/maps" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main/maps/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/interface" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/methods" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/struct" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/stringAndRunes" />
-        <item itemvalue="Go Build.go build MYTESTPROC_GO/main/recursion" />
+        <item itemvalue="Go Build.go build GoTest/ginStudy/main" />
+        <item itemvalue="Go Build.go build GoTest/main/maps" />
+        <item itemvalue="Go Build.go build GoTest/mainI/timeouts" />
+        <item itemvalue="Go Build.go build GoTest/mainI/channelSelect" />
+        <item itemvalue="Go Build.go build GoTest/mainI/channel" />
       </list>
     </recent_temporary>
   </component>
@@ -158,9 +181,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chat by go" />
-    <option name="LAST_COMMIT_MESSAGE" value="chat by go" />
+    <MESSAGE value="recent study" />
+    <option name="LAST_COMMIT_MESSAGE" value="recent study" />
   </component>
   <component name="VgoProject">
+    <environment>
+      <map>
+        <entry key="GORPOXY" value="https://goproxy.cn,direct" />
+      </map>
+    </environment>
     <settings-migrated>true</settings-migrated>
   </component>
 </project>

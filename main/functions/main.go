@@ -11,6 +11,7 @@ func plusPlus(a, b, c int) int {
 	return a + b + c
 }
 
+// 方法的学习
 func main() {
 
 	res := plus(1, 2)

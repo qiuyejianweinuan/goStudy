@@ -10,10 +10,12 @@ func intSeq() func() int {
 	}
 }
 
+// 闭包 匿名函数
 func main() {
 
 	nextInt := intSeq()
 
+	// 不断调用闭包函数
 	fmt.Println(nextInt())
 	fmt.Println(nextInt())
 	fmt.Println(nextInt())

@@ -1,5 +1,6 @@
 package main
 
+// Go范型 1.8版本新加入的特性
 import "fmt"
 
 func MapKeys[K comparable, V any](m map[K]V) []K {
@@ -37,6 +38,7 @@ func (lst *List[T]) GetAll() []T {
 	return elems
 }
 
+// 范型
 func main() {
 	var m = map[int]string{1: "2", 2: "4", 4: "8"}
 

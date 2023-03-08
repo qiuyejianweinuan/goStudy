@@ -33,7 +33,11 @@ func main() {
 	fmt.Println("prs:", prs)
 
 	// 初始化一个map集合
-	n := map[string]int{"foo": 1, "bar": 2}
+	//初始化 + 赋值一体化
+	n := map[string]int{
+		"foo": 1,
+		"bar": 2,
+	}
 	//输出  map: map[bar:2 foo:1]
 	fmt.Println("map:", n)
 }

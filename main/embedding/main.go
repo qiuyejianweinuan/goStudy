@@ -10,12 +10,14 @@ func (b base) describe() string {
 	return fmt.Sprintf("base with num=%v", b.num)
 }
 
+// 当一个结构体中含有其他结构体，那么此结构体可直接访问被包含结构体的字段
 // 一个 container 嵌入 了一个 base. 一个嵌入看起来像一个没有名字的字段
 type container struct {
 	base
 	str string
 }
 
+// 内嵌结构体
 func main() {
 
 	//当创建含有嵌入的结构体，必须对嵌入进行显式的初始化；
