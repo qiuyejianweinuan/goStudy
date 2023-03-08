@@ -1,8 +1,8 @@
 package main
 
 import (
-	"GoTest/mainI/utils"
 	"fmt"
+	"goTest/mainI/utils"
 )
 
 // 通道(channels) 是连接多个协程的管道。
