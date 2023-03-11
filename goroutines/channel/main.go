@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"goTest/mainI/utils"
+	"goTest/goroutines/utils"
 	"time"
 )
 
