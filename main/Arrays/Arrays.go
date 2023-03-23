@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -22,5 +24,12 @@ func main() {
 			twoD[i][j] = i + j
 		}
 	}
+
+	type msg struct {
+		Role    string `json:"role"`
+		Content string `json:"content"`
+	}
+	test := [1]map[string]string{{"role": "user", "content": "Hello!"}}
+	fmt.Println(test[0]["role"])
 	fmt.Println("2d: ", twoD)
 }
